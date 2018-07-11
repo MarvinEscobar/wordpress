@@ -1,0 +1,59 @@
+* {
+  outline: 0; }
+  *:focus {
+    outline: 0; }
+
+a {
+  text-decoration: none;
+  outline: 0; }
+
+::selection {
+  background-color: #024860;
+  color: #fff; }
+
+#menu-principal #menu-item-93 {
+  margin-left: 30px; }
+  #menu-principal #menu-item-93 > a {
+    background: url(../images/account.png) no-repeat;
+    background-position: 50% 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 0px;
+    margin-top: -5px; }
+  #menu-principal #menu-item-93 .sub-menu {
+    background: url(../images/sub-menu-lg.png) no-repeat;
+    background-position: 50% 50%;
+    width: 125px;
+    height: 69px;
+    left: -50px; }
+    #menu-principal #menu-item-93 .sub-menu::before {
+      display: none; }
+    #menu-principal #menu-item-93 .sub-menu a {
+      text-align: center;
+      padding-top: 23px; }
+#menu-principal #menu-item-92 a {
+  background: url(../images/car.png) no-repeat;
+  background-position: 50% 50%;
+  height: 30px;
+  width: 30px;
+  font-size: 0px;
+  margin-top: -5px; }
+#menu-principal #menu-item-96 {
+  margin-left: 30px; }
+  #menu-principal #menu-item-96 a {
+    background: url(../images/orders.png) no-repeat;
+    background-position: 50% 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 0px;
+    margin-top: -5px; }
+#menu-principal .wpmenucartli {
+  display: none !important; }
+
+.social-media p, .social-media a {
+  display: inline-block;
+  vertical-align: top; }
+.social-media a img {
+  margin: -5px 0px 0px 5px; }
+
+/*# sourceMappingURL=main.css.map */
